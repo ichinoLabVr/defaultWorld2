@@ -46,6 +46,6 @@ public class RandomMatchMaker : MonoBehaviourPunCallbacks
 
     public override void OnDisconnected(DisconnectCause cause)
     {
-        Debug.Log($"サーバーとの接続が切断されました: {cause.ToString()}");   //退室ボタンを押していないが退室した→つまりキックされた
+        Debug.Log("サーバーとの接続が切断されました");   //退室ボタンを押していないが退室した→つまりキックされた
     }
 }
